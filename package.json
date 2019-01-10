@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "The Responsive Portfolio",
+  "main": "index.js",
+  "homepage": "https://github.com/alirahemi/portfolio#readme",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o project/css/ --recursive",
+    "deploy": "gh-pages -d project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirahemi/portfolio.git"
+  },
+  "author": "Ali Rahemi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alirahemi/portfolio/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
